@@ -31,7 +31,7 @@ jobs:
     - name: Autoformat and static checks
       run: |
         # autoformatter
-        black .
+        black . --check
         # typecheck
         mypy .
         # general staic checks
