@@ -36,6 +36,9 @@ class FunctionInfo:
 
 class SubjectInfo:
     def __init__(self, *, shuffle: bool, reps: int, label: str):
+        if (reps < 1):
+            raise ValueError(f"reps < 1: {reps}")
+
         self.reps = reps
         self.shuffle = shuffle
         self.label = label
@@ -54,6 +57,25 @@ class TimeSubject:
 
     def __shuffle_args(self):
         shuffle(self.__funinfo.args)
+
+    def __time_fun_call(self, arg_index):
+        self.__timers.start()
+        self.__funinfo.fun(self.__funinfo.args[arg_index])
+        self.__timers.stop()
+
+    def __time_fun_arglist(self):
+        if self.shuffle:
+            self.__shuffle_args()
+
+        for arg in self.__funinfo.args:
+            self.__time_fun_call(arg)
+
+    def profile(self):
+        for _ in range(self.reps):
+            self.__time_fun_arglist()
+
+    def print(self):
+        print(self)
 
     @property
     def name(self) -> str:
@@ -74,6 +96,3 @@ class TimeSubject:
     @property
     def shuffle(self) -> bool:
         return self.__subinfo.shuffle
-
-    def print(self):
-        print(self)

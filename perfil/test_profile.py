@@ -8,3 +8,5 @@ def test_subjects():
     )
 
     assert time_subject.label == "test label"
+    assert time_subject.reps == 10
+    assert time_subject.shuffle is True
