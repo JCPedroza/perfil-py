@@ -1,5 +1,5 @@
 from typing import Callable
-from random import shuffle
+from random import shuffle as shuffle_array
 from timeit import default_timer as timer
 from time import perf_counter as counter
 
@@ -58,7 +58,7 @@ class TimeSubject:
         return f"{head}{mid}{bot}"
 
     def __shuffle_args(self):
-        shuffle(self.__shuffable_args)
+        shuffle_array(self.__shuffable_args)
 
     def __time_fun_call(self, arg):
         self.__timers.start()
