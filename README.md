@@ -1,3 +1,3 @@
-# Pyprofile
+# Perfil
 
 Profile python functions.

@@ -33,7 +33,7 @@ jobs:
         # autoformatter
         black . --check
         # typecheck
-        mypy .
+        mypy --exclude setup.py .
         # general staic checks
         prospector .
         # stop the build if there are Python syntax errors or undefined names

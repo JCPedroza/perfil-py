@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "pyprofile"
+name = "perfil"
 version = "0.1.0"
 description = "Profile python functions."
 authors = ["JCPedroza <nemesis4go10@hotmail.com>"]
 readme = "README.md"
 license = "MIT"
-homepage = "https://github.com/JCPedroza/pyprofile"
-repository = "https://github.com/JCPedroza/pyprofile"
+homepage = "https://github.com/JCPedroza/perfil"
+repository = "https://github.com/JCPedroza/perfil"
 
 [tool.poetry.dependencies]
 python = "^3.10"

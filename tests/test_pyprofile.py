@@ -1,4 +1,4 @@
-from pyprofile import __version__
+from perfil import __version__
 
 
 def test_version():
