@@ -7,7 +7,7 @@ Profile python functions.
 
 ---
 
-[0]: https://img.shields.io/github/license/jcpedroza/perfil
+[0]: https://img.shields.io/github/license/jcpedroza/perfil?color=%2310af6f
 [1]: https://en.wikipedia.org/wiki/MIT_License
 [2]: https://img.shields.io/pypi/pyversions/perfil
 [3]: https://img.shields.io/pypi/pyversions/perfil
