@@ -17,7 +17,9 @@
         "**/Thumbs.db": true,
         "**/.mypy_cache": true,
         "**/.pytest_cache": true,
-        "**/__pycache__": true
+        "**/__pycache__": true,
+        "**/dist": true,
+        "**/*.egg-info": true
     },
     "files.trimTrailingWhitespace": true,
     "python.linting.flake8Enabled": true,
