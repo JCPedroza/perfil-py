@@ -1,0 +1,27 @@
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.rulers": [
+      88
+    ],
+    "editor.tabSize": 4,
+    "editor.trimAutoWhitespace": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
+        "**/__pycache__": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.prospectorEnabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.enabled": true,
+}
