@@ -1,4 +1,5 @@
-from perfil.profile import TimeSubject, FunctionInfo, SubjectInfo
+from profiling import TimeSubject
+from info import FunctionInfo, SubjectInfo
 
 
 def test_subjects():
