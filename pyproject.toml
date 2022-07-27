@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyprofile"
-version = "0.0.1"
+version = "0.1.0"
 description = "Profile python functions."
 authors = ["JCPedroza <nemesis4go10@hotmail.com>"]
 readme = "README.md"
