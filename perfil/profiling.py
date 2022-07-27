@@ -1,6 +1,6 @@
 from random import shuffle as shuffle_array
-from timing import Timers
-from info import FunctionInfo, SubjectInfo
+from perfil.timing import Timers
+from perfil.info import FunctionInfo, SubjectInfo
 
 
 class TimeSubject:

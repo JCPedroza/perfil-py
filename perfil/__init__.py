@@ -1,5 +1,5 @@
 __version__ = "0.1.3"
 
-from profiling import TimeSubject
-from timing import Timers
-from info import FunctionInfo, SubjectInfo
+from perfil.profiling import TimeSubject
+from perfil.timing import Timers
+from perfil.info import FunctionInfo, SubjectInfo
