@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="perfil",
-    version="0.1.2",
+    version="0.1.3",
     description="Profile Python functions.",
     url="https://github.com/JCPedroza/perfil",
     author="JCPedroza",
