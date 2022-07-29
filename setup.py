@@ -6,7 +6,7 @@ setup(
     description="Profile Python functions.",
     url="https://github.com/JCPedroza/perfil",
     author="JCPedroza",
-    author_email="<nemesis4go10@hotmail.com>",
+    author_email="nemesis4go10@hotmail.com",
     license="MIT",
     packages=["perfil"],
     install_requires=[
