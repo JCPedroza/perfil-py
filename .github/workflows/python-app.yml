@@ -34,11 +34,9 @@ jobs:
         black . --check
         # typecheck
         mypy --exclude setup.py .
-        # general staic checks
+        # style, anti-pattern, and other static checks
         prospector .
-        # stop the build if there are Python syntax errors or undefined names
         flake8 . --count --show-source --statistics
-        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --statistics
     - name: Test with pytest
       run: |
