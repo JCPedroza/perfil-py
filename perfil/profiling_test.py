@@ -1,13 +1,14 @@
-from perfil.profiling import TimeSubject
-from perfil.info import FunctionInfo, SubjectInfo
+from profiling import Profile
 
 
-def test_subjects():
-    time_subject = TimeSubject(
-        FunctionInfo(fun=lambda x: x, args=(0, 5, 9, -3)),
-        SubjectInfo(label="test label", shuffle=True, reps=10),
-    )
+def my_test_function(my_test_arg):
+    return my_test_arg
 
-    assert time_subject.label == "test label"
+
+def test_profiling():
+    time_subject = Profile(my_test_function, (0, 5, 9, -3), 10, True)
+
+    assert time_subject.name == "my_test_function"
     assert time_subject.reps == 10
     assert time_subject.shuffle is True
+    assert time_subject.profile() > 0
