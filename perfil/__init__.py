@@ -1,3 +1,3 @@
 __version__ = "0.1.4"
 
-from profiling import Profile, ProfileCollection
+from profiling import build_profile_group
