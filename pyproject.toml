@@ -5,8 +5,8 @@ description = "Profile python functions."
 authors = ["JCPedroza <nemesis4go10@hotmail.com>"]
 readme = "README.md"
 license = "MIT"
-homepage = "https://github.com/JCPedroza/perfil"
-repository = "https://github.com/JCPedroza/perfil"
+homepage = "https://github.com/JCPedroza/perfil-py"
+repository = "https://github.com/JCPedroza/perfil-py"
 
 [tool.poetry.dependencies]
 python = "^3.10"
