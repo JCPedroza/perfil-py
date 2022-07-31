@@ -4,7 +4,7 @@ setup(
     name="perfil",
     version="0.1.4",
     description="Profile Python functions.",
-    url="https://github.com/JCPedroza/perfil",
+    url="https://github.com/JCPedroza/perfil-py",
     author="JCPedroza",
     author_email="nemesis4go10@hotmail.com",
     license="MIT",
