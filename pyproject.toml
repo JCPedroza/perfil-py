@@ -19,7 +19,7 @@ flake8 = "^4.0.1"
 prospector = "^1.7.7"
 pyclean = "^2.2.0"
 pytest = "^7.1.2"
-twine = "^4.0.1"
+twine = "^4.0.2"
 
 [tool.pytest.ini_options]
 pythonpath = [
